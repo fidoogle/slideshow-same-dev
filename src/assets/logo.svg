@@ -1,0 +1,20 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base slide shape -->
+  <rect x="5" y="10" width="38" height="28" rx="3" fill="#0d0d13" stroke="#785fc2" stroke-width="2"/>
+
+  <!-- Slide transition elements -->
+  <rect x="11" y="17" width="12" height="14" rx="1" fill="#785fc2" opacity="0.9"/>
+  <rect x="18" y="17" width="12" height="14" rx="1" fill="#ce66ac" opacity="0.9"/>
+  <rect x="25" y="17" width="12" height="14" rx="1" fill="#5dae7a" opacity="0.9"/>
+
+  <!-- Dollar sign for monetization -->
+  <path d="M25 9C25 7.89543 24.1046 7 23 7C21.8954 7 21 7.89543 21 9V10H25V9Z" fill="#ce66ac"/>
+  <path d="M25 38V39C25 40.1046 24.1046 41 23 41C21.8954 41 21 40.1046 21 39V38H25Z" fill="#ce66ac"/>
+  <path d="M24 15C26.2091 15 28 13.2091 28 11H20C20 13.2091 21.7909 15 24 15Z" fill="#ce66ac"/>
+  <path d="M28 37C28 34.7909 26.2091 33 24 33C21.7909 33 20 34.7909 20 37H28Z" fill="#ce66ac"/>
+
+  <!-- Control dots -->
+  <circle cx="23" cy="36" r="1.5" fill="white"/>
+  <circle cx="18" cy="36" r="1" fill="white" opacity="0.6"/>
+  <circle cx="28" cy="36" r="1" fill="white" opacity="0.6"/>
+</svg>
