@@ -82,6 +82,31 @@ html {
   }
 }
 
+/* Ensure text is visible on dark backgrounds */
+.text-gray-400 {
+  color: rgba(209, 213, 219, 1); /* Lighter gray for better visibility */
+}
+
+.text-gray-500 {
+  color: rgba(180, 185, 190, 1); /* Lighter gray for better visibility */
+}
+
+/* Ensure all text in dark mode is visible */
+.dark {
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.9); /* Default text color for dark mode */
+}
+
+/* Ensure card text is visible */
+.dark .bg-gray-900 {
+  color: white;
+}
+
+/* Make sure all headings are visible */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --background: 0 0% 100%;
